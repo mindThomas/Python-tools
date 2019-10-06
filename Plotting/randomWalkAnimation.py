@@ -34,7 +34,7 @@ def run(niter=1000, doblit=True):
     ax.set_aspect('equal')
     ax.set_xlim(0, 255)
     ax.set_ylim(0, 255)
-    ax.hold(True)
+    #ax.hold(True)
     rw = randomwalk()
     x, y = rw.__next__()
 
